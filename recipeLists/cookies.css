@@ -1,0 +1,45 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #ece4b7;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+}
+
+a:hover {
+    text-shadow: 2px 2px 8px #02020b;
+    transition: .2s ease-in;
+}
+
+footer {
+    height: 100px;
+    display: grid;
+    place-items: center;
+    margin: 2rem 0;
+    font-weight: 700;
+}
+
+footer a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #02020b;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+}

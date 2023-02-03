@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Shadows+Into+Light&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #ece4b7;
+    overflow: hidden;
+}
+
+/* hide scollbar but still able to scroll */
+/* body::-webkit-scrollbar { 
+    display: none;
+} */
+
+#header {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 3rem;
+    position: relative;
+    display: grid;
+    place-items: center;
+    color: #02020b;
+}
+
+.title {
+    margin: 50px 0 50px;
+}
+
+.title-line {
+    width: 90%;
+    border-top: 5px solid #a8201a;
+}
+.content-line {
+    width: 70%;
+    border-top: 5px dotted #a8201a;
+    opacity: calc(0.4);
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    height: 45px;
+    font-family: 'Shadow Into Light', cursive;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 1rem;
+    color: #02020b;
+    font-size: 1.2rem;
+}
+
+a:hover {
+    text-shadow: 2px 2px 8px #02020b;
+    transition: .2s ease-in;
+}
+
+#left-box {
+    font-size: 8rem;
+    font-family: 'Abril Fatface', cursive;
+    height: 0px;
+    width:450px;
+    word-wrap: break-word;
+    margin: 0 0 0 5%;
+}
+
+#right-box {
+    font-size: 1.2rem;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 1000px;
+    width: 1000px;
+    word-wrap: break-word;
+    margin: 0 43%;
+    top: 100px;
+    left: 500px;
+}
+
+#right-box p {
+    text-align: left;
+}
+
+.break {
+    opacity: 0;
+}
